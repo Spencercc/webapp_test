@@ -1,2 +1,5 @@
-Git is a distributed cwesion control system.
-Git is free software
+Python对协程的支持是通过generator实现的。
+
+在generator中，我们不但可以通过for循环来迭代，还可以不断调用next()函数获取由yield语句返回的下一个值。
+
+但是Python的yield不但可以返回一个值，它还可以接收调用者发出的参数。
